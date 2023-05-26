@@ -171,10 +171,6 @@ import './App.css'
         </div>
       </div>
     </div>
- 
-            <div className="main">
-              <Typography className='pl-8'>hello</Typography>
-            </div>
     </>
   )
 }

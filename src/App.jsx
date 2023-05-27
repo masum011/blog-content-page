@@ -20,6 +20,7 @@ import partners3 from '../src/assets/aboutus/partners3.png'
 import partners4 from '../src/assets/aboutus/partners4.png'
 import word from '../src/assets/aboutus/word_dev.png'
 import EmpCard from './component/aboutUs/EmpCard';
+import CopyrightIcon from '@mui/icons-material/Copyright';
 import './App.css'
  export default function App() {
   const images = [
@@ -30,7 +31,7 @@ import './App.css'
 
   return (
     <>  
-    <div className="header-content bg-darkBackground h-screen flex items-center justify-center ">
+    <div className="header-content bg-black h-screen flex items-center justify-center ">
         <div className="content-div w-2/4 m-auto text-white">
           <div className="word-dev-img">
           <img src={word} alt='word-dev-lab' className='m-auto '/>
@@ -77,7 +78,7 @@ import './App.css'
       </div>
     </div>
 
-    <div className="page3 page2 h-screen">
+    <div className="cardsection h-screen">
       <div className="card-section h-full flex justify-evenly items-center">
         <div className="text-left w-2/4 px-12">
           <Typography variant='h4' sx={{color:"#1A5AFA"}}>Values. <span className='text-white'> D.I.C.E</span> </Typography>
@@ -169,6 +170,20 @@ import './App.css'
           <img src={partners3} alt='our partners'/>
           <img src={partners4} alt='our partners'/>
         </div>
+      </div>
+    </div>
+
+    <div className="footer-section cardsection flex justify-evenly items-center py-4">
+      <div className="text-copy">
+        <b><CopyrightIcon/>2023 </b>
+        <p>ryantexh01</p>
+        All Rights Reserved.
+
+
+      </div>
+      <div className="botton-footer">
+        <p className='text-white'>Auther: Masum Reza</p>
+        <b><u className='text-blue'>masumr111@gmail.com</u></b>
       </div>
     </div>
     </>

@@ -1,0 +1,13 @@
+.cardsection {
+  background: linear-gradient(
+    179.36deg,
+    #0e1116 0.55%,
+    #171a1f 39.58%,
+    #25282d 52.78%,
+    #fbfbff 96.05%
+  );
+}
+.header-content{
+    background-image: url("../src/assets/aboutus/aboutimg.png");
+    
+}

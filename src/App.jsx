@@ -17,7 +17,6 @@ import emp6 from '../src/assets/aboutus/ashurst.png'
 import partners1 from '../src/assets/aboutus/partners1.png'
 import partners2 from '../src/assets/aboutus/partners2.png'
 import partners3 from '../src/assets/aboutus/partners3.png'
-import partners4 from '../src/assets/aboutus/partners4.png'
 import word from '../src/assets/aboutus/word_dev.png'
 import EmpCard from './component/aboutUs/EmpCard';
 import CopyrightIcon from '@mui/icons-material/Copyright';
@@ -168,7 +167,6 @@ import './App.css'
           <img src={partners1} alt='our partners'/>
           <img src={partners2} alt='our partners'/>
           <img src={partners3} alt='our partners'/>
-          {/* <img src={partners4} alt='our partners'/> */}
         </div>
       </div>
     </div>

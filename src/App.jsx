@@ -159,21 +159,21 @@ import './App.css'
       <div className="text-div">
     <Typography variant='h3'  sx={{color:"#1A5AFA"}}>Our Partners. 
                 <span className='text-black'> Our Alliance </span>
-              </Typography>
-           <Typography className='pr-16 my-8'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </Typography><br />
+           <Typography className='pr-16 my-8 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Risus feugiat in ante metus dictum at. Dolor sit amet consectetur adipiscing</Typography>
       </div>
 
-        <div className="partners-card flex justify-between ">
+        <div className="partners-card flex justify-between mt-12">
           <img src={partners1} alt='our partners'/>
           <img src={partners2} alt='our partners'/>
           <img src={partners3} alt='our partners'/>
-          <img src={partners4} alt='our partners'/>
+          {/* <img src={partners4} alt='our partners'/> */}
         </div>
       </div>
     </div>
 
-    <div className="footer-section cardsection flex justify-evenly items-center py-4">
+    <div className="footer-section cardsection flex justify-evenly items-center py-36">
       <div className="text-copy">
         <b><CopyrightIcon/>2023 </b>
         <p>ryantexh01</p>
@@ -181,7 +181,7 @@ import './App.css'
 
 
       </div>
-      <div className="botton-footer">
+      <div className="botton-footer ">
         <p className='text-white'>Auther: Masum Reza</p>
         <b><u className='text-blue'>masumr111@gmail.com</u></b>
       </div>

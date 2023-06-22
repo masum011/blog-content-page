@@ -182,7 +182,8 @@ import './App.css'
       <h2>css,sass 10/10</h2>
       <h2>javaScript,reactjs,reduxtoolkit 10/10</h2>
       <h2>git,github 10/10</h2>
-      <h2>npdejs 10/7</h2>
+      <h2>Nodejs 10/7</h2>
+      <h1>MongoDB 10/7</h1> 
     </div>
     <div className="footer-section cardsection flex justify-evenly items-center py-36">
       <div className="text-copy">

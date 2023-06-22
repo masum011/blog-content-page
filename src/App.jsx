@@ -1,5 +1,5 @@
 
-import React from 'react';
+import {React,useState} from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import { Typography,Button } from '@mui/material'
@@ -22,6 +22,12 @@ import EmpCard from './component/aboutUs/EmpCard';
 import CopyrightIcon from '@mui/icons-material/Copyright';
 import './App.css'
  export default function App() {
+  const [textColor, setTextColor] = useState(null);
+
+  const changeTextColor = () => {
+    setTextColor('white');
+  };
+
   const images = [
     "https://www.groupdiscussionideas.com/wp-content/uploads/2021/09/teamwork-vs-individual-work.jpg",
     "https://www.groupdiscussionideas.com/wp-content/uploads/2021/09/teamwork-vs-individual-work.jpg",
@@ -84,14 +90,14 @@ import './App.css'
           <Typography className='text-white'>WE CELEBRATE DIFFERENCES</Typography>
           <Typography sx={{color:"#CCCCCC"}}>RyanTech01 Alliance is an emerging Information technology consulting and training company headquartered in Gurugram. We conduct career transformation workshops & training in Artificial Intelligence, Machine Learning, Deep Learning, Agile, DevOps, Big Data, Blockchain, Software Test Automation, Robotics Process Automation, and other cutting edge technologies.</Typography>
         </div>
-        <div className="img-logo-right w-2/4 flex  justify-evenly">
-            <div className="card">
-            <img src={card1} alt='card'/><br /><br />
+        <div className="img-logo-right w-2/4 flex  justify-evenly ">
+            <div className="card cursor-pointer">
+            <img src={card1} alt='card' /><br /><br />
             <img src={card2} alt='card'/>
             </div>
-            <div className="card">
+            <div className="card cursor-pointer">
             <img src={card3} alt='card'/><br /><br />
-            <img src={card4} alt='card'/>
+            <img src={card4} alt='card'className='' style={{backgroundColor: textColor}} onClick={changeTextColor}/>
             </div>
         </div>
       </div>
@@ -170,7 +176,14 @@ import './App.css'
         </div>
       </div>
     </div>
-
+    <div className="my-cv-section text-[5rem] text-center" >
+      <h1 className='btext-old'><u>my skills</u></h1>
+      <h2>Html,Html5 -10/10</h2>
+      <h2>css,sass 10/10</h2>
+      <h2>javaScrip,reactjs,reduxtoolkit 10/10</h2>
+      <h2>git,github 10/10</h2>
+      <h2>npdejs 10/7</h2>
+    </div>
     <div className="footer-section cardsection flex justify-evenly items-center py-36">
       <div className="text-copy">
         <b><CopyrightIcon/>2023 </b>

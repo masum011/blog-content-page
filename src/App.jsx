@@ -180,7 +180,7 @@ import './App.css'
       <h1 className='btext-old'><u>my skills</u></h1>
       <h2>Html,Html5 -10/10</h2>
       <h2>css,sass 10/10</h2>
-      <h2>javaScrip,reactjs,reduxtoolkit 10/10</h2>
+      <h2>javaScript,reactjs,reduxtoolkit 10/10</h2>
       <h2>git,github 10/10</h2>
       <h2>npdejs 10/7</h2>
     </div>
